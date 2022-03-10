@@ -15,3 +15,5 @@ WORKDIR /nazmiblog
 ADD . /nazmiblog/
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
+
+EXPOSE 8080
