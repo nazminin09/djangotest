@@ -17,5 +17,5 @@ ADD . /nazmiblog/
 RUN pip install -r requirements.txt
 #tell containers to listen on port 8080 during runtime..tpi x tahu kena specify tcp or udp protocol ke idok
 EXPOSE 8080
-#tell container to execute this after starting ni dalam json format
+#tell container to execute this after starting ni dalam json format host 0.0.0.0
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8080"]
