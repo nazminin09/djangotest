@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!_pi$wq87_1wy1rt@5c&9&rb+mau2#qm*48rv_*f!srt#hwr^2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['git-django-nazmi-nazmi-project.apps.ocp.tmrnd.com.my']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
